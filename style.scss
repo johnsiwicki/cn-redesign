@@ -1,5 +1,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif!important;
@@ -15,18 +16,25 @@ background-color: #F5F7FA;
 .container .jumbotron {
 border-radius: 6px;
 overflow: hidden;
+font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.jumo, .jumbotron {
+	background-color: #16699F;
+	color: white
+}
+.container .jumbotron .btn {
+	font-size:22px;
 }
 
 .jumbotron .h1,.jumbotron h1 {
-    font-size: 28px
+   font-size: 48px;
 }
 
-.jumbotron .h2,.jumbotron h2 {
-    font-size: 24px
-}
+ 
 
 .jumbotron p {
-    font-size: 14px
+    font-size: 23px;
 }
 
 .jumbo {
@@ -34,7 +42,9 @@ overflow: hidden;
     margin-bottom: 20px;
 }
 
-
+.panel {
+	margin-top: 20px;
+}
 .btn-m {
     background:#F6BB42;
 }
@@ -43,9 +53,17 @@ overflow: hidden;
 color: white;
 }
 
+.navbar {
+	margin-bottom: 0; 
+}
+
 .navbar-inverse {
 background-color: #16699F;
 border-color: #EF8C25;
+}
+
+.navbar-brand {
+    color:white !important;
 }
 
 .footer {

@@ -5,8 +5,12 @@
 }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Proxima Nova",Arial,sans-serif !important;
   background-color: #F5F7FA;
+}
+
+.center {
+  text-align: center;
 }
 
 .container .jumbotron {
@@ -26,10 +30,17 @@ body {
 
 .jumbotron .h1, .jumbotron h1 {
   font-size: 48px;
+  margin-top: 0;
 }
 
 .jumbotron p {
   font-size: 23px;
+}
+
+.container .jumbotron {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
 }
 
 .jumbo {
@@ -45,21 +56,75 @@ body {
   background: #F6BB42;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse {
+  background-color: #F5F7FA;
+  border-color: #EF8C25;
+  border: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #ed9c28;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #ed9c28;
+  font-size: 35px;
+  background-color: transparent;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-inverse .navbar-brand,
+  .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    font-size: 24px;
+  }
+}
+.thumbnail {
+  background: #446BA0;
+  padding: 0;
+  padding-top: 10px;
+  border-radius: 0;
+}
+
+/*.thumbnail:hover {
+    background-color: #E7AF22;
+}*/
+.services-bonus {
+  background: white;
+  margin: 0;
+  padding: 10px;
+  color: #858585;
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+  text-decoration: none;
+}
+
+a.thumbnail {
   color: white;
 }
 
-.navbar {
-  margin-bottom: 0;
+.services-headline {
+  font-weight: bold;
 }
 
-.navbar-inverse {
-  background-color: #16699F;
-  border-color: #EF8C25;
+.navbar-inverse .navbar-nav > li > a {
+  color: #16699F;
 }
 
 .navbar-brand {
-  color: white !important;
+  color: white;
+}
+
+.nav > li > a {
+  padding: 10px 20px;
+}
+
+.dealer-quote {
+  color: #4A89DC;
 }
 
 .footer {
